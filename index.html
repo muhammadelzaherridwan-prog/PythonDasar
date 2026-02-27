@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Saya</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1cc88a;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4e73df;
+}
+
+.about {
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Nama Kamu</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+</header>
+
+<nav>
+    <a href="#about">Tentang</a>
+    <a href="#projects">Project</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <div class="about">
+        <p>Saya adalah seorang developer yang memiliki minat dalam pembuatan website modern dan responsif.</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Project Saya</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Deskripsi singkat project.</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Deskripsi singkat project.</p>
+        </div>
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Deskripsi singkat project.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontak</h2>
+    <div class="about">
+        <p>Email: emailkamu@email.com</p>
+        <p>Instagram: @usernamekamu</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nama Kamu. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
